@@ -17,9 +17,13 @@
   },
   "homepage": "https://github.com/jorgefrac/learning-webpack#readme",
   "devDependencies": {
+    "babel-minify-webpack-plugin": "^0.2.0",
+    "css-loader": "^0.28.9",
+    "style-loader": "^0.20.1",
     "webpack": "^3.10.0"
   },
   "dependencies": {
+    "font-awesome": "^4.7.0",
     "lodash": "^4.17.4"
   }
 }
