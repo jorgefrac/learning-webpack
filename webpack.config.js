@@ -18,10 +18,9 @@ module.exports = {
 			},
 			{
 				test: /\.(woff|woff2|eot|ttf|otf|svg)$/,
-				use: [
-					'file-loader'
-				]
+				loader: 'file-loader?name=[name].[ext]&outputPath=fonts/&publicPath=dist/',
 			},
 		]
 	}
 };
+
