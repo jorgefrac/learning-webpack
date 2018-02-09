@@ -71,8 +71,8 @@
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_lodash___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_lodash__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css__ = __webpack_require__(4);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__style_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__style_css__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_app_css__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__css_app_css___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__css_app_css__);
 
 
 
@@ -17258,8 +17258,8 @@ var update = __webpack_require__(7)(content, options);
 if(content.locals) module.exports = content.locals;
 
 if(false) {
-	module.hot.accept("!!../node_modules/css-loader/index.js!./style.css", function() {
-		var newContent = require("!!../node_modules/css-loader/index.js!./style.css");
+	module.hot.accept("!!../../node_modules/css-loader/index.js!./app.css", function() {
+		var newContent = require("!!../../node_modules/css-loader/index.js!./app.css");
 
 		if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 
@@ -17293,7 +17293,7 @@ exports = module.exports = __webpack_require__(6)(false);
 
 
 // module
-exports.push([module.i, "", ""]);
+exports.push([module.i, "html{\r\n\r\n}\r\n\r\nbody{\r\n\tfont-family: 'Libre Franklin', sans-serif;\r\n}\r\n\r\nh1{\r\n\tfont-size: 64px;\r\n}", ""]);
 
 // exports
 
