@@ -4,15 +4,14 @@
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-	<!--T I T L E-->
+	<!-- T I T L E -->
 	<title>Webpack</title>
 
 	<!--F O N T S-->
 	<link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,500,700" rel="stylesheet">
 
-	<!-- C S S-->
-	<link rel="stylesheet" href="src/css/app.css">
-
+	<!-- C S S -->
+	<link rel="stylesheet" href="assets/css/app.css">
 </head>
 <body>
 	<header>
@@ -37,6 +36,13 @@
 						npx webpack --config webpack.config.js
 					</code>
 				</pre>
+				<p>Obtener la version que estoy utilizando</p>
+				<pre>
+					<code>
+						npm view webpack version
+					</code>
+				</pre>
+				 npm run build
 			</section>
 		</div>
 	</main>
@@ -57,7 +63,6 @@
 	</footer>
 
 	<!-- J S -->
-	<script src="dist/bundle.js" type="text/javascript"></script>
-
+	<script src="dist/bundle.js" type="text/javascript" async="true"></script>
 </body>
 </html>

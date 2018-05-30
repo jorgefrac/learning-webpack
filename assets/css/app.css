@@ -1,0 +1,45 @@
+:root{
+	--color-primary: #000;
+	--color-text:		#666666;
+	--color-accent:	rgb(250, 249, 255);
+	--font-text:		'Libre Franklin', sans-serif;
+	/*background: linear-gradient(-45deg,#354879,#341448);*/
+}
+
+html{
+
+}
+
+body{
+	margin: 0;
+	color: var(--color-text);
+	font-family: var(--font-text);
+	font-size: 16px;
+	background-color: white;
+	/* 252932 */
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-weight: 700;
+}
+
+h1{
+	font-size: 64px;
+}
+
+a{
+	color: #2b6ddd;
+}
+
+a:hover{
+	color: #17d075;
+}
+
+p{
+	font-weight: 400;
+}
+
+.footer{
+	width: 100%;
+	position: relative;
+}
